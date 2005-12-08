@@ -1,0 +1,13 @@
+Changes
+Makefile.PL
+MANIFEST
+README
+t/PGPLOT-Simple.t
+lib/PGPLOT/Simple.pm
+examples/circles.pl
+examples/histogram.pl
+examples/select.yaml
+examples/simple_plot.pl
+examples/variable_vs_time.pl
+examples/functions.pl
+META.yml                                 Module meta-data (added by MakeMaker)
