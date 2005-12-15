@@ -1,4 +1,4 @@
-PGPLOT-Simple version 0.01
+PGPLOT-Simple version 0.02
 ==========================
 
 PGPLOT::Simple is a simple interface to the PGPLOT library ala Perl, making

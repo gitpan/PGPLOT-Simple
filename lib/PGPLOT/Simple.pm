@@ -44,7 +44,7 @@ Exporter::export_ok_tags('essential');
 Exporter::export_ok_tags('optional');
 Exporter::export_ok_tags('pgplot');
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 
 my $ATTR2SUB = {
@@ -60,8 +60,8 @@ my $ATTR2SUB = {
 };
 
 my $PALLETE = {
-    Black           =>  0,   
-    White           =>  1,
+    Background      =>  0,   
+    Foreground      =>  1,
     Red             =>  2,
     Green           =>  3,
     Blue            =>  4,
@@ -608,7 +608,7 @@ sub set_attributes {
 sub set_color {
     my $id = shift;
     
-    my $color = $PALLETE->{'Black'}; # Default color
+    my $color = $PALLETE->{'Foreground'}; # Default color
 
     if (defined $id) {
         if ( exists $PALLETE->{ $id } ) {
@@ -1705,7 +1705,7 @@ References:
 Set next primitive color, launch exception if a wrong color
 supplied.
 
-See L</"color"> to see the valid color code names. Defaults to 'Black' if
+See L</"color"> to see the valid color code names. Defaults to 'Foreground' if
 nothing supplied.
 
 References:
@@ -1852,8 +1852,8 @@ References:
 
 Supported color code names:
 
-    Black
-    White
+    Background
+    Foreground
     Red 
     Green
     Blue
