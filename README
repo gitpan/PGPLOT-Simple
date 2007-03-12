@@ -1,4 +1,4 @@
-PGPLOT-Simple version 0.02
+PGPLOT-Simple version 0.03
 ==========================
 
 PGPLOT::Simple is a simple interface to the PGPLOT library ala Perl, making
@@ -35,7 +35,7 @@ Libraries:
 
 COPYRIGHT AND LICENCE
 
-Copyright (C) 2005 by Florian Merges <fmerges@cpan.org>
+Copyright (C) 2005-2007 by Florian Merges <fmerges@cpan.org>
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself, either Perl version 5.8.7 or,
