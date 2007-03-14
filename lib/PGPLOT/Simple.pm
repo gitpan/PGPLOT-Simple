@@ -44,7 +44,7 @@ Exporter::export_ok_tags('essential');
 Exporter::export_ok_tags('optional');
 Exporter::export_ok_tags('pgplot');
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 
 my $ATTR2SUB = {
