@@ -12,6 +12,7 @@ WriteMakefile(
         List::MoreUtils =>       0,
         Scalar::Util    =>       0,
     }, # e.g., Module::Name => 1.1
+    LICENSE           => 'perl',
     ($] >= 5.005 ?     ## Add these new keywords supported since 5.005
       (ABSTRACT_FROM  => 'lib/PGPLOT/Simple.pm', # retrieve abstract from module
        AUTHOR         => 'Florian Merges <fmerges@cpan.org>') : ()),
